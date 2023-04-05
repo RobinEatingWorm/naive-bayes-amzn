@@ -7,7 +7,7 @@ The primary techniques used were NLP tokenization and processing of Tweet text, 
 
 This repository contains the following files.
 
-* `data/HistoricalData_1680662815050.csv`: [AMZN Historical Data](https://www.nasdaq.com/market-activity/stocks/amzn/historical) from NASDAQ. The data was downloaded on August 24, 2023.
+* `data/HistoricalData_1680662815050.csv`: [AMZN Historical Data](https://www.nasdaq.com/market-activity/stocks/amzn/historical) from NASDAQ. The data were downloaded on August 24, 2023.
 * `data/JeffBezos.csv`: [Jeff Bezos Tweets and Social Media Interactions](https://www.kaggle.com/datasets/thedevastator/jeff-bezos-tweets-and-social-media-interactions) from Kaggle.
 * `src/data_loading.py`: Helper functions to load the two datasets and merge them together by date.
 * `src/main.py`: The main analysis performed on the data.
@@ -24,7 +24,7 @@ Training, validation, and testing datasets were created by splitting the origina
 * Validation Accuracy: 0.596
 * Testing Accuracy: 0.577
 
-Admittedly, the model's accuracy is quite low. This makes sense in context, however, because it is unreasonable to expect Jeff Bezos's Tweets to be the only factor affecting Amazon stock prices.
+Admittedly, the model accuracy is quite low. This makes sense in context, however, because it is unreasonable to expect Jeff Bezos's Tweets to be the only factor affecting Amazon stock prices.
 
 ### Most Probable Tokens
 
